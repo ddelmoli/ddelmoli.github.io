@@ -726,6 +726,126 @@ body.mobile-nav-active #mobile-nav-toggle {
     border: 2px solid #2dc997;
   }
 
+/* Results Section
+--------------------------------*/
+#results {
+    background: #fff;
+    padding: 80px 0;
+  }
+  
+  #results .results-container .background {
+    min-height: 300px;
+    background: url(../img/results-img.jpg) center top no-repeat;
+    margin-bottom: 10px;
+  }
+  
+  #results .results-container .content {
+    background: #fff;
+  }
+  
+  #results .results-container .title {
+    color: #333;
+    font-weight: 700;
+    font-size: 32px;
+  }
+  
+  @media (max-width: 768px) {
+    #results .results-container .title {
+      padding-top: 15px;
+    }
+  }
+  
+  #results .results-container p {
+    line-height: 26px;
+  }
+  
+  #results .results-container p:last-child {
+    margin-bottom: 0;
+  }
+  
+  #results .results-container .icon-box {
+    background: #fff;
+    background-size: cover;
+    padding: 0 0 30px 0;
+  }
+  
+  #results .results-container .icon-box .icon {
+    float: left;
+    background: #fff;
+    padding: 16px;
+    border-radius: 50%;
+    border: 2px solid #2dc997;
+  }
+  
+  #results .results-container .icon-box .icon i {
+    color: #2dc997;
+    font-size: 24px;
+  }
+  
+  #results .results-container .icon-box .title {
+    margin-left: 80px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  
+  #results .results-container .icon-box .title a {
+    color: #111;
+  }
+  
+  #results .results-container .icon-box .description {
+    margin-left: 80px;
+    line-height: 24px;
+    font-size: 14px;
+  }
+
+/* Next Steps Section
+--------------------------------*/
+  #next-steps {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/next-steps-bg.jpg) fixed center center;
+    background-size: cover;
+    padding: 80px 0;
+  }
+  
+  #next-steps .nxt-title {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+  }
+  
+  #next-steps .nxt-text {
+    color: #fff;
+  }
+  
+  @media (min-width: 769px) {
+    #next-steps .nxt-btn-container {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+  }
+  
+  #next-steps .nxt-btn {
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+  }
+  
+  #next-steps .nxt-btn:hover {
+    background: #2dc997;
+    border: 2px solid #2dc997;
+  }
+
 /* Portfolio Section
 --------------------------------*/
 #portfolio {

@@ -54,7 +54,7 @@
           <li><a href="#services">Approach</a></li>
           <li><a href="#demo">Demo</a></li>
           <li><a href="#results">Results</a></li>
-          <li><a href="#nextsteps">Next Steps</a></li>
+          <li><a href="#next-steps">Next Steps</a></li>
           <li><a href="#team">Team</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
@@ -96,13 +96,13 @@
             <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
               <div class="icon"><i class="fa fa-bar-chart"></i></div>
               <h4 class="title"><a href="">Sophisticated Recommendations</a></h4>
-              <p class="description">Using natural language processing to determine event similarity, EventDilly learns users likes and dislikes to present them with events based on their interests
+              <p class="description">Using natural language processing to determine event similarity, EventDilly learns users likes and dislikes to present them with events based on their interests</p>
             </div>
 
             <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
               <div class="icon"><i class="fa fa-thumbs-up"></i></div>
               <h4 class="title"><a href="">Modern User Interface</a></h4>
-              <p class="description">A clean, simple user interface works on browsers and mobile devices and a intuitive like / dislike process quickly gives users a set of events they can attend
+              <p class="description">A clean, simple user interface works on browsers and mobile devices and a intuitive like / dislike process quickly gives users a set of events they can attend</p>
             </div>
 
           </div>
@@ -142,8 +142,6 @@
       </div>
     </section><!-- #facts -->
 
-
-
     <!--==========================
     Call To Action Section
     ============================-->
@@ -155,7 +153,6 @@
             <p class="cta-text"> Declining levels of civic engagement and social capital were highlighted in the 2000 book, “Bowling Alone: The Collapse and Revival of American Community”. While the original studies have been criticized, current events seem to demonstrate ever increasing polarization & silo’ed nature of our social groups. Encouraging more diverse local social interaction would seem to be a productive way to combat isolationist behavior. While sites exist to assist us in choosing venues and services, there is a lack of similar resources to help us find local social activities and events. Finding fun things to do shouldn’t be hard work. No one has the time to scour newspapers and the Internet for weekend events and going to the same club every weekend is boring. Similarly posting your event everywhere is time consuming and expensive. Wouldn't it be nice if there was an easy to use site that aggregated event listings so that everyone can find the events they'd like to attend?</p>
           </div>
         </div>
-
       </div>
     </section><!-- #call-to-action -->
 
@@ -250,6 +247,60 @@
           </div>
         </div>
       </section><!-- #demo -->
+
+    <!--==========================
+      Results Section
+    ============================-->
+    <section id="results">
+        <div class="container">
+          <div class="row results-container">
+  
+            <div class="col-lg-6 content order-lg-1 order-2">
+              <h2 class="title">Results</h2>
+              <p>
+                EventDilly efficiently gathers events from various sources, creates uniform clusters of events based on their similarity and presents users with candidate events to like or dislike. The application presents events that it thinks the user will like, with an occasional random event for consideration. 
+              </p>
+  
+              <div class="icon-box wow fadeInUp">
+                <div class="icon"><i class="fa fa-credit-card"></i></div>
+                <h4 class="title"><a href="">Serverless Data Loading</a></h4>
+                <p class="description">Individual functions are used to load data from each source. The functions are triggered by a daily event alarm and are only active during the data load. Using AWS Lambda functions, costs are incurred only when the load is running. Data loading effectively occurs for free.</p>
+              </div>
+  
+              <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
+                <div class="icon"><i class="fa fa-th-large"></i></div>
+                <h4 class="title"><a href="">Natural Language Event Clustering</a></h4>
+                <p class="description">Event titles and descriptions are parsed using Doc2Vec to create event vectors. Recommendation engine creates uniform clusters using vector similarity and silhouette method. Event similarities are pre-computed for display performance.</p>
+              </div>
+  
+              <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
+                <div class="icon"><i class="fa fa-exchange"></i></div>
+                <h4 class="title"><a href="">Bandit Exploitation / Exploration</a></h4>
+                <p class="description">User interface uses a continuosly refined multi-armed bandit algorithm to display events similar to user likes while exploring other event clusters to gather more like / dislike data.</p>
+              </div>
+  
+            </div>
+  
+            <div class="col-lg-6 background order-lg-2 order-1 wow fadeInRight"></div>
+          </div>
+  
+        </div>
+      </section><!-- #results -->
+  
+    <!--==========================
+    Next Steps Section
+    ============================-->
+    <section id="next-steps">
+            <div class="container wow fadeIn">
+              <div class="row">
+                <div class="col-lg-7">
+                  <h3 class="nxt-title">Next Steps</h3>
+                  <p class="nxt-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+              </div>
+      
+            </div>
+    </section><!-- #call-to-action -->
 
     <!--==========================
       Team Section
